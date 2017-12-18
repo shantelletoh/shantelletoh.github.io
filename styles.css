@@ -1,5 +1,5 @@
 html {
-	background-color: lightseagreen;
+	background-color: plum;
 	font-family: 'Amaranth', sans-serif;
 }
 
@@ -7,8 +7,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: darkblue;
+}
+
 div {
-	background-color: azure;
 	text-align: center;
 	width: 90%;
 	height: 500px;
@@ -18,8 +21,12 @@ div {
 	padding: 0px 10px 0px 10px;
 }
 
-#main {
+#main , #about-me{
+	background-color: lightcyan;
+}
 
+#notes, #contact{
+	background-color: aliceblue;
 }
 
 #notes h2 {
@@ -44,7 +51,7 @@ div {
 
 #contact a {
 	margin: 10px;
-	color: dimgray;
+	color: gray;
 	transition: 0.1s;
 }
 
@@ -58,6 +65,14 @@ div {
 
 #contact h2 {
 	padding-top: 30px;
+}
+
+#about-me p {
+	margin-top: 30px;
+}
+
+footer {
+	padding-bottom: 15px;
 }
 
 h1 {
