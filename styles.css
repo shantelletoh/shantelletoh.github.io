@@ -1,0 +1,74 @@
+html {
+	background-color: lightseagreen;
+	font-family: 'Amaranth', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	background-color: azure;
+	text-align: center;
+	width: 90%;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+#main {
+
+}
+
+#notes h2 {
+	margin: 30px;
+	font-size: 25px;
+}
+
+.icon {
+	transition: 0.1s;
+	color: gray;
+	padding: 10px 15px 0px 15px;
+}
+
+.icon:hover {
+	color: turquoise;
+	cursor: pointer;
+}
+
+#caption {
+	color: gray;
+}
+
+#contact a {
+	margin: 10px;
+	color: dimgray;
+	transition: 0.1s;
+}
+
+#contact a:hover {
+	color: black;
+}
+
+#contact {
+	height: 200px;
+}
+
+#contact h2 {
+	padding-top: 30px;
+}
+
+h1 {
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+}
