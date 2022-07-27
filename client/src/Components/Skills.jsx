@@ -25,7 +25,7 @@ import react from "../assets/skills/react_icon.svg";
 
 export default function Skills() {
   return (
-    <div id="skills" class="pt-12">
+    <div id="skills" class="pt-12 border-t border-gray-300 pb-10">
       <div class="flex justify-center">
         <div class="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
           <GiGearHammer class="w-10 h-10" />

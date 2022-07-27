@@ -1,7 +1,7 @@
 import headshot from "../assets/headshot.png";
 export default function About() {
   return (
-    <div class="flex justify-center pt-10">
+    <div class="flex justify-center pt-10 pb-10">
       <div class="w-[85vw] max-w-[1080px] flex justify-between items-center sm:gap-3 lg:gap-8">
         <div>
           <h1 class="text-2xl w-full b-4">

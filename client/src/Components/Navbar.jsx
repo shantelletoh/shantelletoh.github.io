@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <div class="bg-neutral-200">
-      <div className="max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           {/* small screen toggle menu button */}
           <div className="absolute left-0 flex items-center sm:hidden">
@@ -73,6 +73,12 @@ export default function Navbar() {
                   Experience
                 </a>
                 <a
+                  href="#projects"
+                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
+                >
+                  Projects
+                </a>
+                <a
                   href="#contact"
                   class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
                 >
@@ -135,6 +141,12 @@ export default function Navbar() {
               class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
             >
               Experience
+            </a>
+            <a
+              href="#projects"
+              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
+            >
+              Projects
             </a>
             <a
               href="#contact"

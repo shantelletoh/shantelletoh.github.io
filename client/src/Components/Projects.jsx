@@ -3,7 +3,7 @@ import personalWebsite from "../assets/personal_website.png";
 
 export default function Projects() {
   return (
-    <div id="projects" class="pt-12">
+    <div id="projects" class="pt-12 border-t border-gray-300 pb-10">
       <div class="flex justify-center">
         <div class="w-[85vw] max-w-[1080px] flex justify-center items-center gap-2">
           <BsFileEarmarkCode class="w-10 h-10" />
@@ -13,7 +13,7 @@ export default function Projects() {
       <div class="flex justify-center mt-8">
         <div class="w-[85vw] max-w-[1080px]">
           {/* Project 1 */}
-          <div class="gap-5 flex">
+          <div class="gap-5 flex flex-col md:flex-row items-center">
             <a
               target="_blank"
               href="https://github.com/shantelletoh/shantelletoh.github.io"

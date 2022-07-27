@@ -6,7 +6,7 @@ import lssLogo from "../assets/experience/ucsc-lss-logo.png";
 
 export default function Experience() {
   return (
-    <div id="experience" class="pt-12">
+    <div id="experience" class="pt-12 border-t border-neutral-300 pb-10">
       <div className="flex justify-center">
         <div className="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
           <MdWorkOutline class="w-10 h-10" />
