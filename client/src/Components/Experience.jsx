@@ -1,5 +1,4 @@
 import { MdWorkOutline } from "react-icons/md";
-
 import baskinLogo from "../assets/experience/baskin-engineering-logo.png";
 import cruzhacks2022Logo from "../assets/experience/cruzhacks-2022-logo.png";
 import lssLogo from "../assets/experience/ucsc-lss-logo.png";

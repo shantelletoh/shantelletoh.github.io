@@ -9,19 +9,19 @@ import { GiGearHammer } from "react-icons/gi";
 // import cplusplus from "../assets/skills/cplusplus_language.png";
 // import { AiOutlineCode } from "react-icons/ai";
 // import { FaLanguage } from "react-icons/fa";
-import c from "../assets/skills/c_language.png";
-import css from "../assets/skills/css_icon.png";
-import git from "../assets/skills/git_icon.svg";
 import html from "../assets/skills/html_icon.png";
-import java from "../assets/skills/java_icon.jpg";
+import css from "../assets/skills/css_icon.png";
 import javascript from "../assets/skills/javascript_icon.png";
 import python from "../assets/skills/python_icon.png";
+import c from "../assets/skills/c_language.png";
+import react from "../assets/skills/react_icon.svg";
+import tailwind from "../assets/skills/tailwind_icon.svg";
 import mongodb from "../assets/skills/mongodb_icon.svg";
 import express from "../assets/skills/express_icon.svg";
-import vue from "../assets/skills/vue_icon.png";
 import bulma from "../assets/skills/bulma_icon.svg";
-import tailwind from "../assets/skills/tailwind_icon.svg";
-import react from "../assets/skills/react_icon.svg";
+import vue from "../assets/skills/vue_icon.png";
+import java from "../assets/skills/java_icon.jpg";
+import git from "../assets/skills/git_icon.svg";
 
 export default function Skills() {
   return (
