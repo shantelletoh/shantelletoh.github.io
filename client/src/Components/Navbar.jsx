@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -75,6 +79,38 @@ export default function Navbar() {
                   Contact
                 </a>
               </div>
+            </div>
+          </div>
+          {/* Contact icons */}
+          <div className="absolute right-0 flex items-center pr-2">
+            <div className="relative ml-3 flex gap-2 lg:gap-4">
+              <a
+                target="_blank"
+                href="mailto:shantelletoh@gmail.com"
+                rel="noreferrer"
+              >
+                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <HiOutlineMail className="w-6 h-6" />
+                </div>
+              </a>
+              <a
+                target="_blank"
+                href="https://linkedin.com/in/shantelletoh"
+                rel="noreferrer"
+              >
+                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <FaLinkedin className="w-6 h-6" />
+                </div>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/shantelletoh"
+                rel="noreferrer"
+              >
+                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <FaGithub className="w-6 h-6" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
