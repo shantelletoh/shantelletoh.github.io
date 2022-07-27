@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer class="mt-10 py-8 bg-neutral-200 text-center">
+    <footer id="contact" class="mt-10 py-8 bg-neutral-200 text-center">
       <div>
         <div class="mb-5 flex justify-center gap-4">
           <a

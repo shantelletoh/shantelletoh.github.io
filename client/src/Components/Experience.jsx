@@ -4,7 +4,7 @@ import lssLogo from "../assets/experience/ucsc-lss-logo.png";
 
 export default function Experience() {
   return (
-    <div class="pt-12">
+    <div id="experience" class="pt-12">
       <div className="flex justify-center">
         <div className="w-[85vw] max-w-[1080px] flex items-center gap-2 text-neutral-700">
           <h1 class="text-4xl font-semibold">Experience</h1>
