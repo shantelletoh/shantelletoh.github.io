@@ -27,7 +27,7 @@ export default function Skills() {
   return (
     <div id="skills" class="pt-12">
       <div class="flex justify-center">
-        <div class="w-[85vw] max-w-[1080px] flex items-center gap-2">
+        <div class="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
           <GiGearHammer class="w-10 h-10" />
           <h1 class="text-4xl font-semibold">Skills</h1>
         </div>

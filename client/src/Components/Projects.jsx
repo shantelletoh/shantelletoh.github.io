@@ -1,10 +1,12 @@
+import { BsFileEarmarkCode } from "react-icons/bs";
 import personalWebsite from "../assets/personal_website.png";
 
 export default function Projects() {
   return (
     <div id="projects" class="pt-12">
       <div class="flex justify-center">
-        <div class="w-[85vw] max-w-[1080px]">
+        <div class="w-[85vw] max-w-[1080px] flex justify-center items-center gap-2">
+          <BsFileEarmarkCode class="w-10 h-10" />
           <h1 class="text-4xl font-semibold">Projects</h1>
         </div>
       </div>
@@ -15,6 +17,7 @@ export default function Projects() {
             <a
               target="_blank"
               href="https://github.com/shantelletoh/shantelletoh.github.io"
+              rel="noreferrer"
             >
               <img class="rounded-t-lg w-full" src={personalWebsite} alt="" />
             </a>
@@ -35,6 +38,7 @@ export default function Projects() {
                 target="_blank"
                 href="https://github.com/shantelletoh/shantelletoh.github.io"
                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800"
+                rel="noreferrer"
               >
                 View Project on Github
                 <svg

@@ -1,3 +1,5 @@
+import { MdWorkOutline } from "react-icons/md";
+
 import baskinLogo from "../assets/experience/baskin-engineering-logo.png";
 import cruzhacks2022Logo from "../assets/experience/cruzhacks-2022-logo.png";
 import lssLogo from "../assets/experience/ucsc-lss-logo.png";
@@ -6,7 +8,8 @@ export default function Experience() {
   return (
     <div id="experience" class="pt-12">
       <div className="flex justify-center">
-        <div className="w-[85vw] max-w-[1080px] flex items-center gap-2 text-neutral-700">
+        <div className="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
+          <MdWorkOutline class="w-10 h-10" />
           <h1 class="text-4xl font-semibold">Experience</h1>
         </div>
       </div>
