@@ -20,17 +20,14 @@ export default function About() {
             {/* <p class="text-2xl lg:inline"> | Full-Stack Developer</p> */}
           </div>
           <p class="text-[1.1rem] w-[50vw] md:w-[55vw] max-w-[700px] mt-3">
-            I'm a rising junior at UC Santa Cruz and I plan to graduate in
-            December 2022 with a B.S. in Computer Science. I'm looking for
-            software engineering internships this summer and full-time
-            opportunities post-grad.
+            I'm a junior at UC Santa Cruz and I plan to graduate in December 2022 with a B.S. in Computer Science. I'm looking for software engineering opportunities post-grad.
           </p>
         </div>
         <div>
           <img
             src={headshot}
             alt="Shantelle Toh headshot"
-            className="w-[50vw] rounded-full"
+            className="w-[50vw] max-w-[300px] rounded-full"
             // className="w-[50vw] rounded-full lg:w-[20vw] lg:max-w-[300px]"
           />
         </div>

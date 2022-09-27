@@ -17,6 +17,32 @@ export default function Experience() {
           <ol class="relative border-l border-gray-300 border-l-2">
             <li class="mb-8 ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
+                <img src={baskinLogo} alt="" />
+              </span>
+              <h3 class="flex items-center ml-2 mb-1 text-lg font-semibold text-black">
+                Computer Networks Course Tutor and Grader | Baskin Engineering
+                at UC Santa Cruz 2023{" "}
+              </h3>
+              <p class="block ml-2 mb-2 leading-none text-gray-500">
+                Sept 2022 - Present
+              </p>
+              <p class="ml-2 mb-4 text-gray-600">
+                <ul
+                  style={{
+                    paddingLeft: "1.5em",
+                    listStyleType: "disc",
+                  }}
+                >
+                  <li>
+                    Tutor students in network routing and switching protocols,
+                    socket programming, congestion control mechanisms, TCP/IP
+                    conceptual layers, MAC protocols and LAN
+                  </li>
+                </ul>
+              </p>
+            </li>
+            <li class="mb-8 ml-6">
+              <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={cruzhacks2022Logo} alt="" />
               </span>
               <h3 class="flex items-center ml-2 mb-1 text-lg font-semibold text-black">
@@ -33,7 +59,7 @@ export default function Experience() {
                   }}
                 >
                   <li>
-                    Oversee all sponsorship for Santa Cruz’s largest hackathon
+                    Oversee all sponsorship for Santa Cruz's largest hackathon
                     attended by 600+ students
                   </li>
                   <li>
@@ -79,7 +105,7 @@ export default function Experience() {
                 Learning Support Services at UC Santa Cruz{" "}
               </h3>
               <p class="block ml-2 mb-2 leading-none text-gray-500">
-                Sep 2021 - Present
+                Sep 2021 - Aug 2022
               </p>
               <p class="ml-2 mb-4 text-gray-600">
                 <ul
@@ -93,8 +119,8 @@ export default function Experience() {
                     Assembly Language (CSE12)
                   </li>
                   <li>
-                    Winter 2022: Tutored for Beginning Programming in Python
-                    (CSE20)
+                    Winter 2022, Summer 2022: Tutored for Beginning Programming
+                    in Python (CSE20)
                   </li>
                   <li>Held 4-6 weekly one-on-one and group sessions</li>
                   <li>
