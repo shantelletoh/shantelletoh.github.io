@@ -21,7 +21,7 @@ export default function Experience() {
               </span>
               <h3 class="flex items-center ml-2 mb-1 text-lg font-semibold text-black">
                 Computer Networks Course Tutor and Grader | Baskin Engineering
-                at UC Santa Cruz 2023{" "}
+                at UC Santa Cruz{" "}
               </h3>
               <p class="block ml-2 mb-2 leading-none text-gray-500">
                 Sept 2022 - Present
@@ -33,11 +33,13 @@ export default function Experience() {
                     listStyleType: "disc",
                   }}
                 >
+                  <li>Assist TAs in weekly lab sections with 20+ students</li>
                   <li>
-                    Tutor students in network routing and switching protocols,
-                    socket programming, congestion control mechanisms, TCP/IP
-                    conceptual layers, MAC protocols and LAN
+                    Hold tutoring sessions covering TCP/IP conceptual layers,
+                    routing and switching protocols, socket programming,
+                    congestion control mechanisms, MAC protocols
                   </li>
+                  <li>Responsible for grading labs, quizzes, and midterms</li>
                 </ul>
               </p>
             </li>
@@ -59,8 +61,8 @@ export default function Experience() {
                   }}
                 >
                   <li>
-                    Oversee all sponsorship for Santa Cruz's largest hackathon
-                    attended by 600+ students
+                    Oversee all sponsorship for the largest hackathon in Santa
+                    Cruz with over 600 attendees
                   </li>
                   <li>
                     Lead a team of 3 to fundraise for the event by fostering
@@ -115,18 +117,18 @@ export default function Experience() {
                   }}
                 >
                   <li>
-                    Fall 2022, Spring 2022: Tutored for Computer Systems and
-                    Assembly Language (CSE12)
+                    Spring 2022, Fall 2022: Tutored for Computer Systems and
+                    Assembly Language
                   </li>
                   <li>
                     Winter 2022, Summer 2022: Tutored for Beginning Programming
-                    in Python (CSE20)
+                    in Python
                   </li>
                   <li>Held 4-6 weekly one-on-one and group sessions</li>
                   <li>
                     Helped over 200 students debug Python, RISC-V assembly, and
                     MIPS assembly code and logic design assignments and gain
-                    strong fundamentals in programming and course material.
+                    strong fundamentals in programming and course material
                   </li>
                 </ul>
               </p>
@@ -140,7 +142,7 @@ export default function Experience() {
                 at UC Santa Cruz
               </h3>
               <p class="block ml-2 mb-2 leading-none text-gray-500">
-                Jan 2021 - Dec 2021
+                Jan 2021 - Present
               </p>
               <p class="ml-2 mb-4 text-gray-600">
                 <ul
@@ -150,16 +152,15 @@ export default function Experience() {
                   }}
                 >
                   <li>
+                    Fall 2021, Fall 2022: Graded for Computer Systems and
+                    Assembly Language
+                  </li>
+                  <li>
                     Winter 2021: Graded for Programming Abstractions: Python
-                    (CSE30)
                   </li>
                   <li>
-                    Fall 2021: Graded for Computer Systems and Assembly Language
-                    (CSE12)
-                  </li>
-                  <li>
-                    Evaluated 300+ programming assignments and logic design labs
-                    by providing individual targeted feedback
+                    Evaluated 300+ Python programming and logic design labs by
+                    providing individual targeted feedback
                   </li>
                   <li>
                     Worked with the professor to improve students' learning
