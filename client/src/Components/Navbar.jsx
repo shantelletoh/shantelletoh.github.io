@@ -2,13 +2,14 @@ import { useState } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import stLogo from "../assets/ST_logo.svg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <div class="bg-neutral-200">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1080px] w-[85vw]">
         <div className="relative flex h-16 items-center justify-between">
           {/* small screen toggle menu button */}
           <div className="absolute left-0 flex items-center sm:hidden">
@@ -53,8 +54,20 @@ export default function Navbar() {
 
           {/* nav on md and larger screens */}
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div className="flex flex-shrink-0 items-center">
+              <img
+                className="block h-9 w-auto lg:hidden"
+                src={stLogo}
+                alt="Your Company"
+              />
+              <img
+                className="hidden h-9 w-auto lg:block"
+                src={stLogo}
+                alt="Your Company"
+              />
+            </div>
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex gap-1 lg:gap-3">
+              <div className="flex md:gap-1 lg:gap-3">
                 <a
                   href="#about"
                   class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
@@ -126,8 +139,8 @@ export default function Navbar() {
 
       {/* when menu is open on small screens, display nav menu */}
       {open && (
-        <div className="sm:hidden">
-          <div className="space-y-1 px-2 pb-3">
+        <div className="sm:hidden flex justify-center">
+          <div className="space-y-1 w-[90vw] pb-3">
             <a
               href="#about"
               class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
