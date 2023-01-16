@@ -7,6 +7,14 @@ import stLogo from "../assets/ST_logo.svg";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
+  const navTabs = [
+    { name: "About Me", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+    { name: "Contact", href: "#contact" },
+  ];
+
   return (
     <div class="bg-neutral-200">
       <div className="mx-auto max-w-[1080px] w-[85vw]">
@@ -59,37 +67,18 @@ export default function Navbar() {
               <img className="hidden h-9 w-auto lg:block" src={stLogo} alt="" />
             </div>
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex gap-1 md:gap-4 lg:gap-8">
-                <a
-                  href="#about"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 -ml-5 md:ml-1 font-semibold"
-                >
-                  About Me
-                </a>
-                <a
-                  href="#skills"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
-                >
-                  Skills
-                </a>
-                <a
-                  href="#experience"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
-                >
-                  Experience
-                </a>
-                <a
-                  href="#projects"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
-                >
-                  Projects
-                </a>
-                <a
-                  href="#contact"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
-                >
-                  Contact
-                </a>
+              <div className="flex gap-1 md:gap-2 lg:gap-8 lg:text-lg -ml-5 md:ml-1">
+                {navTabs.map((tab) => (
+                  <a
+                    key={tab.name}
+                    href={tab.href}
+                    class={
+                      "text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
+                    }
+                  >
+                    {tab.name}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
@@ -133,36 +122,17 @@ export default function Navbar() {
       {open && (
         <div className="sm:hidden flex justify-center">
           <div className="space-y-1 w-[90vw] pb-3">
-            <a
-              href="#about"
-              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
-            >
-              About Me
-            </a>
-            <a
-              href="#skills"
-              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
-            >
-              Skills
-            </a>
-            <a
-              href="#experience"
-              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
-            >
-              Experience
-            </a>
-            <a
-              href="#projects"
-              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
-            >
-              Projects
-            </a>
-            <a
-              href="#contact"
-              class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
-            >
-              Contact
-            </a>
+            {navTabs.map((tab) => (
+              <a
+                key={tab.name}
+                href={tab.href}
+                class={
+                  "text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md px-3 py-1.5 font-semibold block w-fit"
+                }
+              >
+                {tab.name}
+              </a>
+            ))}
           </div>
         </div>
       )}

@@ -6,12 +6,12 @@ import c from "../assets/skills/c_language.png";
 import react from "../assets/skills/react_icon.svg";
 import tailwind from "../assets/skills/tailwind_icon.svg";
 import mongodb from "../assets/skills/mongodb_icon.svg";
-import java from "../assets/skills/java_icon.jpg";
-import git from "../assets/skills/git_icon.svg";
-import vim from "../assets/skills/vim_icon.gif";
-import vscode from "../assets/skills/vscode_icon.png";
-import linux from "../assets/skills/linux_icon.jpg";
 import node from "../assets/skills/node_icon.png";
+import java from "../assets/skills/java_icon.jpg";
+import vscode from "../assets/skills/vscode_icon.png";
+import vim from "../assets/skills/vim_icon.gif";
+import linux from "../assets/skills/linux_icon.jpg";
+import git from "../assets/skills/git_icon.svg";
 
 export default function Skills() {
   return (

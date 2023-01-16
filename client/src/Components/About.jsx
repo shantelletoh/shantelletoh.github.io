@@ -2,7 +2,7 @@ import headshot from "../assets/headshot.png";
 
 export default function About() {
   return (
-    <div class="flex justify-center pt-12 pb-12">
+    <div class="flex justify-center pt-12 pb-10">
       <div class="w-[85vw] max-w-[1080px] flex flex-col-reverse sm:flex-row items-center sm:gap-5 lg:gap-8">
         {/* about section text */}
         <div>
@@ -27,7 +27,7 @@ export default function About() {
         <img
           src={headshot}
           alt="Shantelle Toh headshot"
-          className="w-[40vw] sm:w-[32vw] max-w-[250px] rounded-full"
+          className="w-[40vw] sm:w-[32vw] max-w-[250px] rounded-full mb-5"
         />
       </div>
     </div>
