@@ -7,15 +7,19 @@ import lssLogo from "../assets/experience/ucsc-lss-logo.png";
 export default function Experience() {
   return (
     <div id="experience" class="pt-12 border-t border-neutral-300 pb-10">
+      {/* section title */}
       <div className="flex justify-center">
         <div className="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
           <MdWorkOutline class="w-10 h-10" />
           <h1 class="text-4xl font-semibold">Experience</h1>
         </div>
       </div>
+
+      {/* section content */}
       <div class="flex justify-center">
         <div className="w-[85vw] max-w-[1080px] mt-8 ml-10">
           <ol class="relative border-l border-gray-300 border-l-2">
+            {/* experience 1 */}
             <li class="mb-8 ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={cruzhacks2023Logo} alt="" />
@@ -49,6 +53,8 @@ export default function Experience() {
                 </ul>
               </p>
             </li>
+
+            {/* experience 2 */}
             <li class="mb-8 ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={baskinLogo} alt="" />
@@ -86,6 +92,8 @@ export default function Experience() {
                 </ul>
               </p>
             </li>
+
+            {/* experience 3 */}
             <li class="mb-8 ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={cruzhacks2022Logo} alt="" />
@@ -114,6 +122,8 @@ export default function Experience() {
                 </ul>
               </p>
             </li>
+
+            {/* experience 4 */}
             <li class="mb-8 ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={lssLogo} alt="" />
@@ -151,6 +161,8 @@ export default function Experience() {
                 </ul>
               </p>
             </li>
+
+            {/* experience 5 */}
             <li class="ml-6">
               <span class="absolute flex items-center -ml-1 justify-center w-10 h-10 -left-4 ring-8 ring-white">
                 <img src={baskinLogo} alt="" />

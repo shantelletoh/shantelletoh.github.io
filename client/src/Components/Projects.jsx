@@ -13,7 +13,8 @@ export default function Projects() {
       <div class="flex justify-center mt-8">
         <div class="w-[85vw] max-w-[1080px]">
           {/* Project 1 */}
-          <div class="gap-5 flex flex-col md:flex-row items-center">
+          <div class="gap-5 flex flex-col sm:flex-row items-center">
+            {/* project 1 image */}
             <a
               target="_blank"
               href="https://github.com/shantelletoh/shantelletoh.github.io"
@@ -21,6 +22,8 @@ export default function Projects() {
             >
               <img class="rounded-t-lg w-full" src={personalWebsite} alt="" />
             </a>
+
+            {/* project 1 title, description, and github link */}
             <div class="p-5">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-neutral-900">
                 Personal Website
