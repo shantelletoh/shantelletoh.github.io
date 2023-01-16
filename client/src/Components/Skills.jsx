@@ -1,16 +1,5 @@
 import { GiGearHammer } from "react-icons/gi";
-// import { FaReact } from "react-icons/fa";
-// import { AiOutlineHtml5 } from "react-icons/ai";
-// import { DiCss3 } from "react-icons/di";
-// import { SiTailwindcss } from "react-icons/si";
-// import { SiMongodb } from "react-icons/si";
-// import { SiJavascript } from "react-icons/si";
-// import { SiCplusplus } from "react-icons/si";
-// import cplusplus from "../assets/skills/cplusplus_language.png";
-// import { AiOutlineCode } from "react-icons/ai";
-// import { FaLanguage } from "react-icons/fa";
 import html from "../assets/skills/html_icon.png";
-// import css from "../assets/skills/css_icon.png";
 import javascript from "../assets/skills/javascript_icon.png";
 import python from "../assets/skills/python_icon.png";
 import c from "../assets/skills/c_language.png";
@@ -27,28 +16,18 @@ import node from "../assets/skills/node_icon.png";
 export default function Skills() {
   return (
     <div id="skills" class="pt-12 border-t border-gray-300 pb-10">
+      {/* section title */}
       <div class="flex justify-center">
         <div class="w-[85vw] max-w-[1080px] flex items-center justify-center gap-2">
           <GiGearHammer class="w-10 h-10" />
           <h1 class="text-4xl font-semibold">Skills</h1>
         </div>
       </div>
+
+      {/* section content */}
       <div class="flex justify-center">
         <div className="w-[85vw] max-w-[1080px] mt-8">
           <div class="flex grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
-            {/* <FaReact class="w-10 h-10" />
-            <AiOutlineHtml5 class="w-10 h-10" />
-            <DiCss3 class="w-10 h-10" />
-            <SiTailwindcss class="w-10 h-10" />
-            <SiMongodb class="w-10 h-10" />
-            <SiJavascript class="w-10 h-10" />
-            <SiCplusplus class="w-10 h-10" />
-            <img src={c} alt="" class="w-10" />
-            <img src={cplusplus} alt="" class="w-10" /> */}
-            {/* <div>
-              <AiOutlineCode class="w-10 h-10" />
-            </div> */}
-
             <div class="flex items-center gap-3 text-lg font-semibold mb-2">
               <img src={html} alt="" class="w-8" />
               <p>HTML/CSS</p>
@@ -102,10 +81,6 @@ export default function Skills() {
               <p>Git</p>
             </div>
           </div>
-          {/* <div class="flex items-center gap-2">
-            <FaLanguage class="w-10 h-10" />
-            <p>English, Mandarin, Cantonese, Spanish</p>
-          </div> */}
         </div>
       </div>
     </div>
