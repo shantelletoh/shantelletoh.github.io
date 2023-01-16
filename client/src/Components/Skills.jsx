@@ -10,7 +10,7 @@ import { GiGearHammer } from "react-icons/gi";
 // import { AiOutlineCode } from "react-icons/ai";
 // import { FaLanguage } from "react-icons/fa";
 import html from "../assets/skills/html_icon.png";
-import css from "../assets/skills/css_icon.png";
+// import css from "../assets/skills/css_icon.png";
 import javascript from "../assets/skills/javascript_icon.png";
 import python from "../assets/skills/python_icon.png";
 import c from "../assets/skills/c_language.png";
