@@ -2,8 +2,8 @@ import headshot from "../assets/headshot.png";
 
 export default function About() {
   return (
-    <div class="flex justify-center pt-10 pb-10">
-      <div class="w-[85vw] max-w-[1080px] flex justify-center flex-col-reverse sm:flex-row items-center sm:gap-5 lg:gap-8">
+    <div class="flex justify-center pt-12 pb-12">
+      <div class="w-[85vw] max-w-[1080px] flex justify-between flex-col-reverse sm:flex-row items-center sm:gap-5 lg:gap-8">
         <div>
           <h1 class="text-3xl sm:text-4xl w-full b-4 text-center sm:text-left">
             Hi! I'm <span class="font-bold">Shantelle&nbsp;Toh</span>
@@ -14,7 +14,7 @@ export default function About() {
 
           <div class="mt-2 text-center sm:text-left">
             {/* <span class="text-2xl block md:inline">Computer Science Student</span> */}
-            <p class="text-xl lg:inline">
+            <p class="text-xl sm:text-2xl lg:inline">
               Recent Computer Science Graduate |&nbsp;Full‑Stack&nbsp;Developer
             </p>
             {/* <p class="text-2xl lg:inline"> | Full-Stack Developer</p> */}
