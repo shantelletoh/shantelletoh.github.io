@@ -55,22 +55,14 @@ export default function Navbar() {
           {/* nav on md and larger screens */}
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <img
-                className="block h-9 w-auto lg:hidden"
-                src={stLogo}
-                alt="Your Company"
-              />
-              <img
-                className="hidden h-9 w-auto lg:block"
-                src={stLogo}
-                alt="Your Company"
-              />
+              <img className="block h-9 w-auto lg:hidden" src={stLogo} alt="" />
+              <img className="hidden h-9 w-auto lg:block" src={stLogo} alt="" />
             </div>
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex md:gap-1 lg:gap-3">
+              <div className="flex gap-1 md:gap-4 lg:gap-8">
                 <a
                   href="#about"
-                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 font-semibold"
+                  class="text-neutral-800 hover:bg-neutral-300 hover:text-black rounded-md p-2 -ml-5 md:ml-1 font-semibold"
                 >
                   About Me
                 </a>
@@ -103,15 +95,15 @@ export default function Navbar() {
           </div>
 
           {/* Contact icons */}
-          <div className="absolute right-0 flex items-center pr-2">
-            <div className="relative ml-3 flex gap-2 lg:gap-4">
+          <div className="absolute right-0 flex items-center">
+            <div className="relative flex gap-1 md:gap-4">
               <a
                 target="_blank"
                 href="mailto:shantelletoh@gmail.com"
                 rel="noreferrer"
               >
-                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
-                  <HiOutlineMail className="w-6 h-6" />
+                <div className="rounded-full w-8 h-8 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <HiOutlineMail className="w-5 h-5" />
                 </div>
               </a>
               <a
@@ -119,8 +111,8 @@ export default function Navbar() {
                 href="https://linkedin.com/in/shantelletoh"
                 rel="noreferrer"
               >
-                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
-                  <FaLinkedin className="w-6 h-6" />
+                <div className="rounded-full w-8 h-8 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <FaLinkedin className="w-5 h-5" />
                 </div>
               </a>
               <a
@@ -128,8 +120,8 @@ export default function Navbar() {
                 href="https://github.com/shantelletoh"
                 rel="noreferrer"
               >
-                <div className="rounded-full w-9 h-9 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
-                  <FaGithub className="w-6 h-6" />
+                <div className="rounded-full w-8 h-8 border border-neutral-500 hover:border-neutral-800 text-neutral-500 hover:text-neutral-800 flex justify-center items-center">
+                  <FaGithub className="w-5 h-5" />
                 </div>
               </a>
             </div>

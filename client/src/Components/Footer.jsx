@@ -1,8 +1,6 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-// import { FaRegFilePdf } from "react-icons/fa";
-// import { HiOutlineAcademicCap } from "react-icons/hi";
 
 export default function Footer() {
   return (
